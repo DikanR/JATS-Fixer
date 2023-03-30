@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving DTD v1.0 20120330//EN" "JATS-journalarchiving.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0">
+  <front>
+    <article-meta>
+      <title-group>
+        <article-title />
+      </title-group>
+      <contrib-group content-type="author">
+        <contrib id="person-a99054e84dbcaffc4fd50252deb724fe" contrib-type="person" equal-contrib="no" corresp="no" deceased="no">
+          <name>
+            <surname>Aljarboo</surname>
+            <given-names>Ahmad</given-names>
+          </name>
+          <email>ahmadaljarboo@gmail.com</email>
+          <xref ref-type="aff" rid="aff-1" />
+        </contrib>
+        <contrib id="person-d592f902aa31544025d083e5dd1058e2" contrib-type="person" equal-contrib="no" corresp="no" deceased="no">
+          <name>
+            <surname>Alghamdi</surname>
+            <given-names>Faisal</given-names>
+          </name>
+          <email>f.alghamdi@journalofgastricsurgery.com</email>
+          <xref ref-type="aff" rid="aff-2" />
+        </contrib>
+        <contrib id="person-82362c5b4dca9a4162baf9db366c6654" contrib-type="person" equal-contrib="no" corresp="no" deceased="no">
+          <name>
+            <surname>Alzahrani</surname>
+            <given-names>Abdullah</given-names>
+          </name>
+          <email>a.alzahrani@journalofgastricsurgery.com</email>
+          <xref ref-type="aff" rid="aff-3" />
+        </contrib>
+        <contrib id="person-7a32aba3abba3710ceaca718a74bd5ea" contrib-type="person" equal-contrib="no" corresp="no" deceased="no">
+          <name>
+            <surname>Ali</surname>
+            <given-names>Bandar</given-names>
+          </name>
+          <email>b.ali@journalofgastricsurgery.com</email>
+          <xref ref-type="aff" rid="aff-4" />
+        </contrib>
+      </contrib-group>
+      <aff id="aff-1">
+        <country>Saudi Arabia</country>
+      </aff>
+      <aff id="aff-2">
+        <country>Saudi Arabia</country>
+      </aff>
+      <aff id="aff-3">
+        <country>Saudi Arabia</country>
+      </aff>
+      <aff id="aff-4">
+        <country>Saudi Arabia</country>
+      </aff>
+      <history>
+        <date date-type="received" iso-8601-date="2020-09-26">
+          <day>26</day>
+          <month>09</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <abstract />
+    </article-meta>
+  </front>
+  <body id="body">
+    <p id="_paragraph-7">
+      <italic id="_italic-1">Ahmad A. Aljarboo</italic>
+      <sup id="_superscript-1">
+        <italic id="_italic-2">1*</italic>
+        <italic id="_italic-17" />
+      </sup>
+      <italic id="_italic-3">, Faisal Alghamdi</italic>
+      <italic id="_italic-4">
+        <sup id="_superscript-2">1</sup>
+      </italic>
+      <sup id="_superscript-2">
+        <italic id="_italic-18" />
+      </sup>
+      <italic id="_italic-5">, Abdullah Alzahrani</italic>
+      <italic id="_italic-6">
+        <sup id="_superscript-3">1</sup>
+      </italic>
+      <sup id="_superscript-3">
+        <italic id="_italic-19" />
+      </sup>
+      <italic id="_italic-7">, Bandar Ali</italic>
+      <italic id="_italic-8">
+        <sup id="_superscript-4">1</sup>
+      </italic>
+      <sup id="_superscript-4">
+        <italic id="_italic-20" />
+      </sup>
+    </p>
+    <p id="paragraph-d4bfb21d2c60eb44df3f5a85555dde4c" />
+    <sec id="heading-4f0090e8a03d81e33be621dd1c1b1d53">
+      <title>
+        <bold id="_bold-7">Background </bold>
+      </title>
+      <p id="_paragraph-28"><bold id="bold-1">Cancer</bold> is a group of diseases involving abnormal <ext-link id="external-link-1" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cell_growth">cell growth</ext-link> with the potential to invade or spread to other parts of the body.<ext-link id="external-link-2" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WHO2018-2"><sup id="superscript-1">[2]</sup></ext-link><ext-link id="external-link-3" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-NCI2014-8"><sup id="superscript-2">[8]</sup></ext-link> These contrast with <ext-link id="external-link-4" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Benign_tumor">benign tumors</ext-link>, which do not spread.<ext-link id="external-link-5" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-NCI2014-8"><sup id="superscript-3">[8]</sup></ext-link> Possible <ext-link id="external-link-6" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer_signs_and_symptoms">signs and symptoms</ext-link> include a lump, abnormal bleeding, prolonged cough, unexplained <ext-link id="external-link-7" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Weight_loss">weight loss</ext-link>, and a change in <ext-link id="external-link-8" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Defecation">bowel movements</ext-link>.<ext-link id="external-link-9" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-NHS2012-1"><sup id="superscript-4">[1]</sup></ext-link> While these symptoms may indicate cancer, they can also have other causes.<ext-link id="external-link-10" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-NHS2012-1"><sup id="superscript-5">[1]</sup></ext-link> Over 100 types of cancers affect humans.<ext-link id="external-link-11" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-NCI2014-8"><sup id="superscript-6">[8]</sup></ext-link></p>
+      <p id="paragraph-2"><ext-link id="external-link-12" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Tobacco_use">Tobacco use</ext-link> is the cause of about 22% of cancer deaths.<ext-link id="external-link-13" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WHO2018-2"><sup id="superscript-7">[2]</sup></ext-link> Another 10% are due to <ext-link id="external-link-14" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Obesity">obesity</ext-link>, poor <ext-link id="external-link-15" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Diet_(nutrition)">diet</ext-link>, <ext-link id="external-link-16" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Sedentary_lifestyle">lack of physical activity</ext-link> or <ext-link id="external-link-17" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Alcohol_abuse">excessive drinking</ext-link> of <ext-link id="external-link-18" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Alcohol_(drug)">alcohol</ext-link>.<ext-link id="external-link-19" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WHO2018-2"><sup id="superscript-8">[2]</sup></ext-link><sup id="superscript-9"><ext-link id="external-link-20" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-9">[9]</ext-link></sup><sup id="superscript-10"><ext-link id="external-link-21" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-10">[10]</ext-link></sup> Other factors include certain infections, exposure to <ext-link id="external-link-22" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Ionizing_radiation">ionizing radiation</ext-link>, and environmental pollutants.<ext-link id="external-link-23" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-Enviro2008-3"><sup id="superscript-11">[3]</sup></ext-link> In the <ext-link id="external-link-24" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Developing_country">developing world</ext-link>, 15% of cancers are due to infections such as <ext-link id="external-link-25" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Helicobacter_pylori"><italic id="italic-1">Helicobacter pylori</italic></ext-link>, <ext-link id="external-link-26" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Hepatitis_B">hepatitis B</ext-link>, <ext-link id="external-link-27" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Hepatitis_C">hepatitis C</ext-link>, <ext-link id="external-link-28" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Human_papillomavirus_infection">human papillomavirus infection</ext-link>, <ext-link id="external-link-29" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Epstein%E2%80%93Barr_virus">Epstein–Barr virus</ext-link> and <ext-link id="external-link-30" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/HIV">human immunodeficiency virus</ext-link> (HIV).<ext-link id="external-link-31" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WHO2018-2"><sup id="superscript-12">[2]</sup></ext-link> These factors act, at least partly, by changing the <ext-link id="external-link-32" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Gene">genes</ext-link> of a cell.<ext-link id="external-link-33" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WCR2014Bio-11"><sup id="superscript-13">[11]</sup></ext-link> Typically, many genetic changes are required before cancer develops.<ext-link id="external-link-34" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WCR2014Bio-11"><sup id="superscript-14">[11]</sup></ext-link> Approximately 5–10% of cancers are due to inherited genetic defects.<ext-link id="external-link-35" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-ACS-heredity-12"><sup id="superscript-15">[12]</sup></ext-link> Cancer can be detected by certain signs and symptoms or <ext-link id="external-link-36" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer_screening">screening tests</ext-link>.<ext-link id="external-link-37" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WHO2018-2"><sup id="superscript-16">[2]</sup></ext-link> It is then typically further investigated by <ext-link id="external-link-38" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Medical_imaging">medical imaging</ext-link> and confirmed by <ext-link id="external-link-39" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Biopsy">biopsy</ext-link>.<ext-link id="external-link-40" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-13"><sup id="superscript-17">[13]</sup></ext-link></p>
+    </sec>
+    <sec id="heading-b14e01ea35d34d921ea235ae7a6a7152">
+      <title>
+        <bold id="_bold-8">Case Report </bold>
+      </title>
+      <p id="paragraph-15ff40b5d8657413fff0a522607561c3">The risk of developing certain cancers can be reduced by not smoking, maintaining a healthy weight, limiting <ext-link id="external-link-65618ee3af26ae7a872c6c9014888865" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Alcohol_(drug)">alcohol</ext-link> intake, eating plenty of <ext-link id="external-link-5bb138dff7b3a2b4d3c4ea6827be11d1" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Vegetables">vegetables</ext-link>, <ext-link id="external-link-60bfc4e143e6b450f65b634a35af534f" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Fruits">fruits</ext-link>, and <ext-link id="external-link-0e295da9adf36970bf9651db2b207c99" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Whole_grains">whole grains</ext-link>, <ext-link id="external-link-3359bfa40dd3c232de691e3cd43529f6" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Vaccination">vaccination</ext-link> against certain infectious diseases, limiting consumption of <ext-link id="external-link-aabd69880216dff4a61935d046281f1c" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Processed_meat">processed meat</ext-link> and <ext-link id="external-link-4fa241efb3844fbd8638d52625e36053" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Red_meat">red meat</ext-link>, and limiting exposure to <ext-link id="external-link-c81473d4b79bdb37bc76108f05b8beb8" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Sunlight">sunlight</ext-link>.<ext-link id="external-link-c233d261f4fa8dcee3e667783e909dcd" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-Kushi2012-14"><sup id="superscript-6e7cc012f554a7ed1bf76ff244c08100">[14]</sup></ext-link><sup id="superscript-35047fa4991eb8c51713f05194964c05"><ext-link id="external-link-6a8c68ac9d0a564b94a85a6d9c118ccc" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-15">[15]</ext-link></sup> Early detection through <ext-link id="external-link-3f4d67f878459226ff710379ea2a1844" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer_screening">screening</ext-link> is useful for <ext-link id="external-link-433e97276084370bb9953b29b756eba5" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cervical_cancer">cervical</ext-link> and <ext-link id="external-link-4947f61fe45a676c2786b4d2d1d0710d" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Colorectal_cancer">colorectal cancer</ext-link>.<ext-link id="external-link-ee08856fcfab7e7719dd3563e7c931c5" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WCR2014Scr-16"><sup id="superscript-1d48d499e7b10e9471113a0435f77c4f">[16]</sup></ext-link> The benefits of screening in <ext-link id="external-link-6ff8a757f2c0cbabff929dd9b87509f9" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Breast_cancer">breast cancer</ext-link> are controversial.<ext-link id="external-link-392de9a95573b441496ddf1b1073b185" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WCR2014Scr-16"><sup id="superscript-2cec051fd30a1d0dafa62f66d221f3b8">[16]</sup></ext-link><ext-link id="external-link-1f37fb361a98391fbeb5b1e7f9cbc1fc" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-Got2013-17"><sup id="superscript-32df218155dab735e5ccb4ab6cd6fed2">[17]</sup></ext-link> Cancer is often treated with some combination of <ext-link id="external-link-5633538f7b42c85e03550f51603230a1" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Radiation_therapy">radiation therapy</ext-link>, surgery, <ext-link id="external-link-dd517cab94c2818567056edf56099155" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Chemotherapy">chemotherapy</ext-link> and <ext-link id="external-link-2b1d41e2032f4296fb3092899835305e" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Targeted_therapy">targeted therapy</ext-link>.<ext-link id="external-link-01160fe4e85c0e4c50b74f41c1230b4a" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WHO2018-2"><sup id="superscript-7d5cb21c13735a235e8470b53d308e97">[2]</sup></ext-link><ext-link id="external-link-cc01f6d22bd7ac74d0e529587ce87646" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-TCT2018-4"><sup id="superscript-7e1da5a5df45d519228cdccc082897ed">[4]</sup></ext-link> Pain and symptom management are an important part of care.<ext-link id="external-link-0ff2dbc9c4c71b16cfc523253b3b273b" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WHO2018-2"><sup id="superscript-fcfeb95b29daf0b8f92a1c6f08ae7751">[2]</sup></ext-link> <ext-link id="external-link-21c1617a0a318c96cd16504512bbae4c" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Palliative_care">Palliative care</ext-link> is particularly important in people with advanced disease.<ext-link id="external-link-c0475c2a72518245257f818dabe654e1" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WHO2018-2"><sup id="superscript-fed4692875b7c8afc42d4c40684b6109">[2]</sup></ext-link> The chance of survival depends on the type of cancer and <ext-link id="external-link-6c94d61a9a4b574fbc1de4ca5dc9633e" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer_staging">extent of disease</ext-link> at the start of treatment.<ext-link id="external-link-8128b14468d8eb5ebaf6b0377b5ade2d" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WCR2014Bio-11"><sup id="superscript-774cfc43683f4d8bbd098ab41f56139c">[11]</sup></ext-link> In children under 15 at diagnosis, the <ext-link id="external-link-5197494b792f28e861409fffae737914" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Five-year_survival_rate">five-year survival rate</ext-link> in the <ext-link id="external-link-30edac3287bfe21e9a693fb38096f674" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Developed_world">developed world</ext-link> is on average 80%.<ext-link id="external-link-76e14f33cfb940249d2dd271bcd7a2b9" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WCR2014Peads-18"><sup id="superscript-f815ebb3636c4e410604661a33e44a06">[18]</sup></ext-link> For cancer in the United States, the average five-year survival rate is 66%.<ext-link id="external-link-f74fcd25b7ccd5f5ae43396c9aa8a331" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-Seer2014-5"><sup id="superscript-fa84e2f74e32f094096d03a9bb39c032">[5]</sup></ext-link></p>
+      <fig id="figure-panel-d777a7dc18bbfbb0bf236386d0784c69">
+        <label>Figure 1</label>
+        <caption>
+          <p id="paragraph-f1aa3b882a01c45fb5bf019f0e24ff17" />
+        </caption>
+        <graphic id="graphic-14edeaae5374b4e7913d99aa4f0d3ec4" mimetype="image" mime-subtype="jpeg" xlink:href="cdc4.jpg" />
+      </fig>
+      <p id="_paragraph-33">
+        <italic id="_italic-10">Figure 1: EGD showing polypoid mass on the gastroesopha </italic>
+        <italic id="_italic-11">geal junction (A) with ulceration shown along the gastroe </italic>
+        <italic id="_italic-12">sophageal junction (B).</italic>
+      </p>
+      <p id="_paragraph-36">In 2015, about 90.5 million people had cancer.<ext-link id="external-link-afdddc00f60a72001e97908ad9cf14a2" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-GBD2015Pre-6"><sup id="superscript-dd458d61cddb770110ff147af62fdc43">[6]</sup></ext-link> As of 2019, about 18 million new cases occur annually.<ext-link id="external-link-5bf01862e47511e040c1b8df54243746" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-19"><sup id="superscript-bc78a8749d73ae9740f950e0e1c27d27">[19]</sup></ext-link> Annually, it caused about 8.8 million deaths (15.7% of <ext-link id="external-link-89bbd27b5fb803209d83898c678e781f" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Causes_of_death">deaths</ext-link>).<ext-link id="external-link-c8839a49d5f0098ce66a1f0bfe64a1ea" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-GBD2015De-7"><sup id="superscript-a32b457a68bca1d29952152066280d6f">[7]</sup></ext-link> The most common types of cancer in males are <ext-link id="external-link-bfba788b6b7c17ad5d09fd0c1f62d268" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Lung_cancer">lung cancer</ext-link>, <ext-link id="external-link-96c4f06d49618df930df9da8ed12f2eb" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Prostate_cancer">prostate cancer</ext-link>, <ext-link id="external-link-15ef4bccb832b1fc8b27e8701341d8bf" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Colorectal_cancer">colorectal cancer</ext-link>, and <ext-link id="external-link-163c715939303eaec0c003b5684f8aae" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Stomach_cancer">stomach cancer</ext-link>.<ext-link id="external-link-7ea1027788329fbaa33b0562df18b865" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WCR2014-20"><sup id="superscript-39ffc7706332b0abfd13f049c731643e">[20]</sup></ext-link> In females, the most common types are breast cancer, colorectal cancer, lung cancer, and cervical cancer.<ext-link id="external-link-77061a02a035f646381a08718fbe73b5" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WCR2014Bio-11"><sup id="superscript-dbe9f23982dfeaebb36a56b06dbde9e7">[11]</sup></ext-link> </p>
+      <fig id="figure-panel-57031e85ef2672a3051e0a321930c557">
+        <label>Figure 2</label>
+        <caption>
+          <p id="paragraph-e742add2fda014cc289d5705714d9020" />
+        </caption>
+        <graphic id="graphic-f5e71dfb125f97548e4893522cccf51d" mimetype="image" mime-subtype="jpeg" xlink:href="cdc3.jpg" />
+      </fig>
+      <p id="paragraph-6d23b397f6856f38df1aca29773f5127">If <ext-link id="external-link-ebe5e8d10f3f98e313f6ff186cc97c44" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Skin_cancer">skin cancer</ext-link> other than <ext-link id="external-link-3c8547158ad70b9f701c8281299428b9" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Melanoma">melanoma</ext-link> were included in total new cancer cases each year, it would account for around 40% of cases.<ext-link id="external-link-875aec7caea2c09477eccd4f08509b1f" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-21"><sup id="superscript-12938c098607564ffe279c141494963d">[21]</sup></ext-link><ext-link id="external-link-16c96609b4434b2c5064a2b6b24d510b" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-Cak2012-22"><sup id="superscript-867a8277ba03ad1d46f97c964c45bab8">[22]</sup></ext-link> In children, <ext-link id="external-link-0ed74cb3b52ce98725aa85daa1ef6e87" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Acute_lymphoblastic_leukemia">acute lymphoblastic leukemia</ext-link> and <ext-link id="external-link-dde8469a645f7f845bce43da10155f6a" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Brain_tumors">brain tumors</ext-link> are most common, except in Africa, where <ext-link id="external-link-b5d4ebe62b16b32c5c1a175ec5b0b29c" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Non-Hodgkin_lymphoma">non-Hodgkin lymphoma</ext-link> occurs more often.<ext-link id="external-link-431ef8982bfbab515ec658035d907ea0" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WCR2014Peads-18"><sup id="superscript-21aa374ca0ed2b76d746a053fa7f907d">[18]</sup></ext-link> In 2012, about 165,000 children under 15 years of age were diagnosed with cancer.<ext-link id="external-link-63482243ea097274c33daa803ab87de9" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WCR2014-20"><sup id="superscript-37c6af54fcf405a11669388e4f7f10d3">[20]</sup></ext-link> The risk of cancer increases significantly with age, and many cancers occur more commonly in developed countries.<ext-link id="external-link-c513d97afbdc8be0c9c60f6d23bdbcaf" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WCR2014Bio-11"><sup id="superscript-36abdd65b3bfc41a4fd8755f3c7aa85a">[11]</sup></ext-link> Rates are increasing as <ext-link id="external-link-161c62ff7aa8bb0206bfc13c00ca4102" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Population_ageing">more people live to an old age</ext-link> and as lifestyle changes occur in the developing world.<ext-link id="external-link-6e3bb9ff70c9647f2cf6fcfb6bbfc4e2" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-Epi11-23"><sup id="superscript-63c8b391116d11e9aada530f04a2922a">[23]</sup></ext-link> The financial costs of cancer were estimated at 1.16 trillion <ext-link id="external-link-10be47cc818a530d8fdcd3b321d0b770" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/United_States_dollar">USD</ext-link> per year as of 2010.<ext-link id="external-link-3ce1b39e4ac3b4f5c97bebddb788399d" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WCR2014Eco-24"><sup id="superscript-6bd9d4cabacff2f042a07b5d04143417">[24]</sup></ext-link></p>
+      <fig id="figure-panel-3e1c1f375b13408e4707b572a963dacd">
+        <label>Figure 3</label>
+        <caption>
+          <p id="paragraph-55f674ac8ec1547c2000de25362ac018" />
+        </caption>
+        <graphic id="graphic-3fcd7ddf7dfe287a9386b25344dddcab" mimetype="image" mime-subtype="jpeg" xlink:href="cdc22.jpg" />
+      </fig>
+      <p id="paragraph-1838b7a5c4a7ed5d9ec9df620ef6509c">When cancer begins, it produces no symptoms. Signs and symptoms appear as the mass grows or <ext-link id="external-link-118010cebc9744830bc4b59a0b4793b8" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Ulcer_(dermatology)">ulcerates</ext-link>. The findings that result depend on the cancer's type and location. Few symptoms are <ext-link id="external-link-ce6ea555a7d1815c454baa6ccd71abfd" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Non-specific_symptom">specific</ext-link>. Many frequently occur in individuals who have other conditions. Cancer can be difficult to diagnose and can be considered a "<ext-link id="external-link-a17a5731412a080216c69e9d1743ed65" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/The_great_imitator">great imitator</ext-link>."<ext-link id="external-link-7df94d287958df558569ae190f70ed24" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-Card10-30"><sup id="superscript-f864822e6c48424aaa739daf618e3bc1">[30]</sup></ext-link></p>
+    </sec>
+    <sec id="heading-f3e9b5a1854adc0775728344a467b231">
+      <title>
+        <bold id="_bold-9">Discussion </bold>
+      </title>
+      <p id="_paragraph-44">Local symptoms may occur due to the mass of the tumor or its ulceration. For example, mass effects from lung cancer can block the <ext-link id="external-link-84fac0700e582b407a6d39a82c242cf7" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Bronchus">bronchus</ext-link> resulting in cough or <ext-link id="external-link-4fd751f8e368e527a005ece842337f68" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Pneumonia">pneumonia</ext-link>; <ext-link id="external-link-23787368a228c5e84978eb32643c5110" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Esophageal_cancer">esophageal cancer</ext-link> can cause narrowing of the <ext-link id="external-link-8c86ea062b4214b1fb10e6130a040f7f" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Esophagus">esophagus</ext-link>, making it difficult or painful to swallow; and <ext-link id="external-link-2c827df45f49ae2709b75aab3f5bb197" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Colorectal_cancer">colorectal cancer</ext-link> may lead to narrowing or blockages in the <ext-link id="external-link-492442fbafd7ce4c08ddb362b18ba661" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Bowel">bowel</ext-link>, affecting bowel habits. Masses in breasts or testicles may produce observable lumps. <ext-link id="external-link-1bf07237c61a473b642b103b82046429" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Ulcer_(dermatology)">Ulceration</ext-link> can cause bleeding that can lead to symptoms such as <ext-link id="external-link-b05da0013a7f08b0f6dcbeb56342e745" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Hemoptysis">coughing up blood</ext-link> (lung cancer), <ext-link id="external-link-3417f5e7bf30d272e021c10463a300dd" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Anemia">anemia</ext-link> or <ext-link id="external-link-33319483b8400fbeb0ac13caa3de2087" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Lower_gastrointestinal_bleeding">rectal bleeding</ext-link> (colon cancer), <ext-link id="external-link-c288144236c5b2c48ceed54f8e707a26" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Hematuria">blood in the urine</ext-link> (bladder cancer), or <ext-link id="external-link-e8366a32f0f3e52f5e154e35559e9124" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Abnormal_vaginal_bleeding">abnormal vaginal bleeding</ext-link> (endometrial or cervical cancer). Although localized pain may occur in advanced cancer, the initial tumor is usually painless. Some cancers can cause a buildup of fluid within the chest or <ext-link id="external-link-50b4ea0428e53811cdc515e36370f6b1" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Ascites">abdomen</ext-link>.<ext-link id="external-link-3f74f6a9a2411affc00ead1fd437c01b" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-Card10-30"><sup id="superscript-036013f3e788df19c91a0b653467fedf">[30]</sup></ext-link></p>
+      <sec id="heading-23d6b6e757343f73969463f3750dd620">
+        <title>
+          <italic id="_italic-21">Acknowledgements </italic>
+        </title>
+        <p id="_paragraph-46">None</p>
+      </sec>
+      <sec id="heading-a5671ceac587f59ba3d506dbc488efc4">
+        <title>
+          <italic id="_italic-22">Contributors </italic>
+        </title>
+        <p id="_paragraph-48">AAA, FA, AA, BA conceptualized and designed the study, acquired, and analyzed data, interpreted the study results, drafted the manuscript, and critically revised the final version of the manuscript.</p>
+      </sec>
+      <sec id="heading-ce9298c521862cbfedd0c020651249ae">
+        <title>
+          <italic id="_italic-23">Funding </italic>
+        </title>
+        <p id="_paragraph-50">No funding was received for this study.</p>
+      </sec>
+      <sec id="heading-e1a59f320a77ad17977284a2c936731b">
+        <title>
+          <italic id="_italic-24">Competing interests </italic>
+        </title>
+        <p id="_paragraph-52">No benefits in any form have been received or will be received from a commercial party related directly or indirectly to the subject of this article.</p>
+      </sec>
+      <sec id="heading-30b6d9c133ef52ee511ac74e64129e9c">
+        <title>
+          <italic id="_italic-25">Availability of data and materials </italic>
+        </title>
+        <p id="_paragraph-54">Further information is available from the corresponding author on reasonable request.</p>
+      </sec>
+      <sec id="heading-e4dc6395f3286e471f061e75a4e13062">
+        <title>
+          <italic id="_italic-26">Ethics approval </italic>
+        </title>
+        <p id="_paragraph-56">Not applicable.</p>
+      </sec>
+      <sec id="heading-73363739c2297a55f7b93e8b8010782c">
+        <title>
+          <italic id="_italic-27">Provenance and peer review</italic>
+        </title>
+        <p id="_paragraph-58">Not commissioned; externally peer reviewed.</p>
+      </sec>
+      <sec id="heading-1e65764699c87ca150cd3b05bc4168d2">
+        <title>
+          <italic id="_italic-28">Open access </italic>
+        </title>
+        <p id="_paragraph-60">This is an Open Access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work noncommercially, and license their derivative works on different terms, provided the original work is properly cited and the use is non-commercial. See: http://creativecommons.org/ licenses/by-nc/4.0/</p>
+      </sec>
+    </sec>
+  </body>
+  <back />
+</article>

@@ -34,34 +34,46 @@
         $node = $imported->importNode($importedRoot, true);
         $imported->appendChild($node);
 
-        echo "DTD updated to 1.3";
+        echo "DTD updated to 1.3\n";
 
         return $imported;
     }
 
-    function incrementalDuplicationFix($imported, $elementName, $attributeName)
+    function incrementalAttributeFix($imported, $elementName, $attributeName, $attributeValue)
     {
         $intArray = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
         $importedRoot = $imported->documentElement;
         $increment = 0;
 
         // Look for integer in attribute value to find separation position between string and integer
-        foreach ($importedRoot->getElementsByTagName($elementName)->item(0)->getAttribute($attributeName) as $str) {
+        foreach (str_split($attributeValue) as $str) {
             if (in_array($str, $intArray)) {
-                $separatorPosition = strpos($importedRoot->getElementsByTagName($elementName)->item(0)->getAttribute($attributeName), $str);
+                $separatorPosition = strpos($attributeValue, $str);
+                break;
             }
         }
 
-        foreach ($importedRoot->getElementsByTagName($elementName) as $elementTag) {
-            $string = substr($elementTag->getAttribute($attributeName), 0, $separatorPosition);
-            $increment++;
-    
-            $setAttribute = "{$string}{$increment}";
-    
-            $elementTag->setAttribute($attributeName, $setAttribute);
+        // Check if the given $attributeValue has number
+        if (isset($separatorPosition)) {
+            $string = substr($attributeValue, 0, $separatorPosition);
+        } else {
+            $string = $attributeValue;
         }
 
-        return "<{$elementName}> Duplication Fixed";
+        // Fix the incremental
+        foreach ($importedRoot->getElementsByTagName($elementName) as $elementTag) {
+            if ($elementTag->hasAttribute($attributeName)) {
+                if (str_contains($elementTag->getAttribute($attributeName), $string)) {
+                    $increment++;
+            
+                    $setAttribute = "{$string}{$increment}";
+            
+                    $elementTag->setAttribute($attributeName, $setAttribute);
+                }
+            }
+        }
+
+        return "{$attributeName} Duplication Fixed";
     }
 
 // ----------------------------------------------------------------------------------------------------------------------------------------------//
@@ -74,18 +86,43 @@
         echo <<<INFO
         --------------------------------
         Available option
-        1. Incremental duplication fix
+        1. Increment attribute value
         2. Update DTD to 1.3
-        3. saveAs
+        3. Add or replace element attribute
+        4. Save as
         --------------------------------
 
         INFO;
         $function = readline("Select option: ");
         switch ($function) {
             case '1':
+                echo <<<INFO
+                ----------------------------------------
+                This option fix the incremental problem;
+                - Number duplication
+                - Assign incremental number to existing
+                  attributes
+                ----------------------------------------
+        
+                INFO;
                 $elementName = readline("Element name: ");
                 $attributeName = readline("Attribute name: ");
-                incrementalDuplicationFix($imported, $elementName, $attributeName);
+                echo <<<INFO
+                ----------------------------------------
+                You can enter the attribute value
+                with or without the number, example;
+                - value-6
+                - value6
+                - value-
+                - value
+                to assign incremental to non-number
+                attribute please do not include number
+                since it has no number.
+                ----------------------------------------
+        
+                INFO;
+                $attributeValue = readline("Attribute value: ");
+                incrementalAttributeFix($imported, $elementName, $attributeName, $attributeValue);
                 break;
 
             case '2':
@@ -93,6 +130,10 @@
                 break;
 
             case '3':
+                ;
+                break;
+
+            case '4':
                 $savedName = readline("Save as: ");
                 saveAs($imported, $savedName);
                 exit;

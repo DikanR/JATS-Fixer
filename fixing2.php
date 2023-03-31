@@ -268,6 +268,10 @@
             case '4':
                 echo <<<INFO
 
+                Opsi ini akan menambahkan attribute baru atau
+                secara otomatis menimpa attribute dengan nama
+                yang sama
+
                 1. Timpa semua element yang sama
                 2. Timpa hanya nama attribute yang sama
                 3. Timpa hanya nilai attribute yang ditentukan
@@ -277,13 +281,18 @@
                 if ($runType == 3) {
                     $designatedValue = readline("Nilai attribute yang akan ditimpa: ");
                 }
-                $elementName = readline("Nama Element: ");
-                $attributeName = readline("Nama attribute: ");
-                $attributeValue = readline("Nilai attribute yang baru: ");
+                echo "<\033[32melement-name\033[0m attribute-name=\"attribute-value\">\n";
+                $elementName = readline("Nama element: ");
+                echo "<{$elementName} \033[32mattribute-name \033[0m=\"\">\n";
+                $attributeName = readline("Nama Attribute: ");
+                echo "<{$elementName} {$attributeName}=\"\033[32mattribute-value\033[0m\">\n";
+                $attributeValue = readline("Nilai attribute: ");
                 echo <<<INFO
 
                 gunakan namespace \033[32mxmlns\033[0m?
+
                 \033[32mxmlns\033[0m:attribute="nilai-attribute"
+
                 Y/N
                 \n
                 INFO;

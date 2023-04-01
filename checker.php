@@ -1,5 +1,5 @@
 <?php
-    $requiredElement = [
+    $requiredElements = [
         ['front',[
             ['journal-meta', [
                 ['journal-id'],
@@ -40,6 +40,25 @@
     ];
 
     $requiredAttribute = [
-        
-    ]
+
+    ];
+
+    foreach ($requiredElements as $element) {
+        // to secure $element
+        $dayum = $element;
+        // count if no more string
+        $stop = 0;
+        while (true) {
+            if ($stop = 1) {
+                $stop = 0;
+                break;
+            }
+            if (gettype($dayum) == 'array') {
+                foreach ($dayum as $bruh) {
+                    $dayum = $bruh;
+                }
+                $stop++;
+            }
+        }
+    }
 ?>

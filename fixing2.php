@@ -20,7 +20,7 @@
         echo "Saved as \"{$savedName}\"\n";
     }
 
-    function addOrReplaceElementAttribute($imported, $elementName, $includeNamespace, $attributeName, $attributeValue, $runType, ?string $designatedValue)
+    function addOrReplaceElementAttribute($imported, $elementName, $includeNamespace, $attributeName, $attributeValue, $runType, ?string $designatedValue): void
     {
         // Note: Could have numerous elements not only one
         $importedRoot = $imported->documentElement;
@@ -132,6 +132,68 @@
         }
     }
 
+    function addElement($imported, $appendingElementName, $runType, $designatedElement, ?string $firstOrLastChild): void
+    {
+        $importedRoot = $imported->documentElement;
+        $designatedElement = $importedRoot->getElementsByTagName($designatedElement);
+
+        switch ($runType) {
+            case '1':
+                switch ($firstOrLastChild) {
+                    case '1':
+                        // check if its root element
+                        if ($designatedElement == 'article') {
+                            $importedRoot->insertBerfore(
+                                $appendingElementName,
+                                $importedRoot->firstChild
+                            );
+                        } else {
+                            foreach ($designatedElement as $elementTag) {
+                                $designatedElement->insertBefore(
+                                    $appendingElementName,
+                                    $designatedElement->firstChild
+                                );
+                            }
+                        }
+                        break;
+                    
+                    default:
+                        // check if its root element
+                        if ($designatedElement == 'article') {
+                            $importedRoot->appendChild($appendingElementName);
+                        } else {
+                            foreach ($designatedElement as $elementTag) {
+                                $designatedElement->appendChild($appendingElementName);
+                            }
+                        }
+                        break;
+                }
+                break;
+            
+            case '2':
+                // check if its root element
+                if ($designatedElement->item(0)->parentNode == null) {
+                    $importedRoot->insertBerfore(
+                        $appendingElementName,
+                        $designatedElement
+                    );
+                } else {
+                    $parents = $designatedElement->parentNode;
+                    foreach ($parents as $parent) {
+                        $parent->insertBerfore(
+                            $appendingElementName,
+                            $designatedElement
+                        );
+                    }
+                }
+                break;
+            
+            default:
+                # code...
+                break;
+        }
+    }
+
     function updateDTD($imported)
     {
         $importedRoot = $imported->documentElement;
@@ -151,7 +213,7 @@
         return $imported;
     }
 
-    function incrementalAttributeFix($imported, $elementName, $attributeName, $attributeValue)
+    function incrementalAttributeFix($imported, $elementName, $attributeName, $attributeValue): void
     {
         $intArray = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
         $importedRoot = $imported->documentElement;
@@ -185,7 +247,7 @@
             }
         }
 
-        return "{$attributeName} Duplication Fixed";
+        echo "{$attributeName} Duplication Fixed";
     }
 
 // ----------------------------------------------------------------------------------------------------------------------------------------------//
@@ -204,11 +266,12 @@
     
     while (true) {
         echo <<<INFO
+
         ---------------------------------------
         Opsi tersedia
         1. Perbaiki increment nilai attribute
         2. Update DTD ke 1.3
-        3. (WIP)
+        3. Tambah element
         4. Tambah atau ganti attribute element
            beserta Nilainya
         5. Save as
@@ -220,6 +283,7 @@
             case '1':
                 echo <<<INFO
                 -----------------------------------------
+
                 Opsi ini memperbaiki masalah incremental
                 \033[33m(contoh-1, contoh-2, contoh-3)\033[0m pada nilai
                 attribute, seperti;
@@ -229,12 +293,13 @@
                 - Menambahkan angka pada nilai atribute
                   yang terduplikasi dan tanpa angka
                   \033[33m(contoh, contoh, contoh)\033[0m
+
                 -----------------------------------------
                 \n
                 INFO;
-                echo "<\033[32melement-name\033[0m attribute-name=\"attribute-value\">\n";
+                echo "<\033[92melement-name\033[0m attribute-name=\"attribute-value\">\n";
                 $elementName = readline("Element name: ");
-                echo "<{$elementName} \033[32mattribute-name \033[0m=\"\">\n";
+                echo "<{$elementName} \033[92mattribute-name \033[0m=\"\">\n";
                 $attributeName = readline("Attribute name: ");
                 echo <<<INFO
                 ----------------------------------------
@@ -250,7 +315,7 @@
                 ----------------------------------------
                 \n
                 INFO;
-                echo "<{$elementName} {$attributeName}=\"\033[32mattribute-value\033[0m\">\n";
+                echo "<{$elementName} {$attributeName}=\"\033[92mattribute-value\033[0m\">\n";
                 $attributeValue = readline("Attribute value: ");
                 incrementalAttributeFix($imported, $elementName, $attributeName, $attributeValue);
                 break;
@@ -261,42 +326,96 @@
             
             
             case '3':
-                $imported = updateDTD($imported);
+                $firstOrLastChild = null;
+                echo <<<INFO
+                ------------------------------------------------------
+                Opsi ini digunakan untuk menambahkan element pada tiap
+                element yang ditentukan
+
+                \033[92m<ini-element>
+                </ini-element>\033[0m
+
+                1. Masukan dalam element yang ditentukan
+                2. Masukan di sebelum element yang ditentukan
+                ------------------------------------------------------
+                \n
+                INFO;
+                $runType = readline("Tipe running: ");
+                if ($runType == '1') {
+                    $designatedElement = readline("Dalam element apa: ");
+                    $appendingElementName = readline("Nama element yang ingin dimasukan: ");
+                    echo <<<INFO
+                    ------------------------------------------------
+                    Note:
+                    Jika element yang diisi tidak memiliki element
+                    alias kosong, maka akan terisi seperti biasa
+                    
+                    Contoh pada posisi pertama:
+
+                    <ini-element>
+                        \033[92m<{$appendingElementName}>
+                        </{$appendingElementName}>\033[0m
+                        <element-yang-sudah-ada>
+                        </element-yang-sudah-ada>
+                    </ini-element>
+                    
+                    1. Masukan di posisi pertama
+                    2. Masukan di posisi terakhir
+                    -------------------------------------------------
+                    \n
+                    INFO;
+                    $firstOrLastChild = readline("Posisi: ");
+                }
+                if ($runType == '2') {
+                    $designatedElement = readline("Sebelum element apa: ");
+                    $appendingElementName = readline("Nama element yang ingin dimasukan: ");
+                }
+                addElement($imported, $appendingElementName, $runType, $designatedElement, $firstOrLastChild);
                 break;
             
             // Add or replace attribute
             case '4':
+                $designatedValue = null;
                 echo <<<INFO
-
+                -------------------------------------------------------------------------
                 Opsi ini akan menambahkan attribute baru atau
                 secara otomatis menimpa attribute dengan nama
                 yang sama
 
-                1. Timpa semua element yang sama
+                <element \033[92mini-attribute\033[0m="\033[92mnilai-attribute\033[0m">
+                </element>
+
+                1. Tambah dan timpa semua element yang disebutkan
                 2. Timpa hanya nama attribute yang sama
-                3. Timpa hanya nilai attribute yang ditentukan
+                3. Timpa hanya pada nilai attribute yang ditentukan
+                -------------------------------------------------------------------------
                 \n
                 INFO;
                 $runType = readline("Tipe running: ");
-                if ($runType == 3) {
+                if ($runType == '3') {
                     $designatedValue = readline("Nilai attribute yang akan ditimpa: ");
                 }
-                echo "<\033[32melement-name\033[0m attribute-name=\"attribute-value\">\n";
-                $elementName = readline("Nama element: ");
-                echo "<{$elementName} \033[32mattribute-name \033[0m=\"\">\n";
-                $attributeName = readline("Nama Attribute: ");
-                echo "<{$elementName} {$attributeName}=\"\033[32mattribute-value\033[0m\">\n";
-                $attributeValue = readline("Nilai attribute: ");
                 echo <<<INFO
 
-                gunakan namespace \033[32mxmlns\033[0m?
+                gunakan namespace \033[92mxmlns\033[0m?
 
-                \033[32mxmlns\033[0m:attribute="nilai-attribute"
+                \033[92mxmlns\033[0m:nama-attribute="nilai-attribute"
 
                 Y/N
                 \n
                 INFO;
-                $includeNamespace = readline("Include: ");
+                $includeNamespace = readline("Gunakan: ");
+                if (strtoupper($includeNamespace) == 'Y') {
+                    $xmlnsStr = 'xmlns:';
+                } else {
+                    $xmlnsStr = '';
+                }
+                echo "<\033[92melement-name\033[0m {$xmlnsStr}attribute-name=\"attribute-value\">\n";
+                $elementName = readline("Nama element: ");
+                echo "<{$elementName} {$xmlnsStr}\033[92mattribute-name \033[0m=\"\">\n";
+                $attributeName = readline("Nama Attribute: ");
+                echo "<{$elementName} {$xmlnsStr}{$attributeName}=\"\033[92mattribute-value\033[0m\">\n";
+                $attributeValue = readline("Nilai attribute: ");
                 addOrReplaceElementAttribute(
                     $imported,
                     $elementName,

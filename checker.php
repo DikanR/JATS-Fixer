@@ -1,4 +1,48 @@
 <?php
+    $elements = [
+        'front' => [
+            'journal-meta' => [
+                'journal-id' => null,
+                'journal-title-group' => [
+                    'journal-title' => null
+                ],
+                'issn' => null,
+                'publisher' => [
+                    'publisher-name' => null
+                ]
+            ],
+            'article-meta' => [
+                'article-categories' => [
+                    'subj-group' => [
+                        'subject' => null
+                    ]
+                ],
+                'title-group' => [
+                    'article-title' => null
+                ],
+                'contrib-group' => [
+                    'contrib' => [
+                        'name' => [
+                            'surname' => null,
+                            'given-names' => null
+                        ],
+                        'email' => null,
+                        'xref' => null
+                    ]
+                ],
+                'aff' => null,
+                'pub-date' => [
+                    'year' => null
+                ],
+                'elocation-id' => null,
+                'history' => [
+                    'date' => [
+                        'year' => null
+                    ]
+                ]
+            ],
+        ]
+    ];
     $requiredElements = [
         ['front',[
             ['journal-meta', [
@@ -42,23 +86,51 @@
     $requiredAttribute = [
 
     ];
+    
+    $index = 0;
+    $indexName = 'element';
+    $indexIncrement = 0;
+    while (true) {
+        $dayum = $elements[$arrayKeys[$index]];
+        
+        $arrayKeys = array_keys(${$indexName . $indexIncrement});
+        $elementIndex = count(${$indexName . $indexIncrement});
+        $elementIndex--;
 
-    foreach ($requiredElements as $element) {
-        // to secure $element
-        $dayum = $element;
-        // count if no more string
-        $stop = 0;
-        while (true) {
-            if ($stop = 1) {
-                $stop = 0;
-                break;
+
+        var_dump($arrayKeys);
+        while ($index != $elementIndex) {
+            ${$indexName . $indexIncrement}[$arrayKeys[$index]];
+            if (gettype(${$indexName . $indexIncrement}[$arrayKeys[$index]]) == 'array') {
+                ${$indexName . $indexIncrement} = $dayum;
+                $indexIncrement++;
             }
-            if (gettype($dayum) == 'array') {
-                foreach ($dayum as $bruh) {
-                    $dayum = $bruh;
-                }
-                $stop++;
-            }
+            $index++;
         }
+        ${$indexName . $indexIncrement}--;
+        break;
+
     }
+
+    // foreach ($requiredElements as $root) {
+    //     // to secure $root so the foreach don't break
+    //     $securedRoot = $root;
+    //     // count if no more string
+    //     $stop = 0;
+    //     while (true) {
+    //         if ($stop = 2) {
+    //             $stop = 0;
+    //             break;
+    //         }
+    //         if (gettype($securedRoot) == 'array') {
+    //             foreach ($securedRoot as $child) {
+    //                 $currentChildParent = $securedRoot;
+    //                 $securedRoot = $child;
+    //                 $stop = 0;
+    //             }
+    //         } else {
+    //             $stop++;
+    //         }
+    //     }
+    // }
 ?>

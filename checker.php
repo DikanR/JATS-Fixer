@@ -86,6 +86,11 @@
     $requiredAttribute = [
 
     ];
+
+    $doc = new DOMDocument();
+    $doc->formatOutput = true;
+    $doc->preserveWhiteSpace = false;
+    $doc->load("contoh jats.xml");
     
     $number = 0;
     ${'iteration-' . $number} = 0;
@@ -195,26 +200,4 @@
             ${'iteration-' . --$number};
         }
     }
-
-    // foreach ($requiredElements as $root) {
-    //     // to secure $root so the foreach don't break
-    //     $securedRoot = $root;
-    //     // count if no more string
-    //     $stop = 0;
-    //     while (true) {
-    //         if ($stop = 2) {
-    //             $stop = 0;
-    //             break;
-    //         }
-    //         if (gettype($securedRoot) == 'array') {
-    //             foreach ($securedRoot as $child) {
-    //                 $currentChildParent = $securedRoot;
-    //                 $securedRoot = $child;
-    //                 $stop = 0;
-    //             }
-    //         } else {
-    //             $stop++;
-    //         }
-    //     }
-    // }
 ?>

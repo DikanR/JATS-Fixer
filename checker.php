@@ -91,7 +91,7 @@
     $indexName = 'element';
     $indexIncrement = 0;
     while (true) {
-        $dayum = $elements[$arrayKeys[$index]];
+        ${$indexName . $indexIncrement} = $elements[$arrayKeys[$index]];
         
         $arrayKeys = array_keys(${$indexName . $indexIncrement});
         $elementIndex = count(${$indexName . $indexIncrement});
@@ -102,8 +102,8 @@
         while ($index != $elementIndex) {
             ${$indexName . $indexIncrement}[$arrayKeys[$index]];
             if (gettype(${$indexName . $indexIncrement}[$arrayKeys[$index]]) == 'array') {
-                ${$indexName . $indexIncrement} = $dayum;
                 $indexIncrement++;
+                ${$indexName . $indexIncrement};
             }
             $index++;
         }

@@ -79,6 +79,8 @@
                     } else {
                         $nextSibling = $arrayKeys[${'iteration-' . $number}];
                     }
+
+                    $currentIteration = ${'iteration-' . $number};
                     
                     if ($importedRoot->getElementsByTagName($key2)->item(0) == null) {
                         if ($importedRoot == null) {
@@ -103,9 +105,24 @@
                             } else {
                                 $nextSibling = $arrayKeys[${'iteration-' . $number}];
                             }
-                            
+
+                            $currentIteration = ${'iteration-' . $number};
+                    
                             if ($importedRoot->getElementsByTagName($key3)->item(0) == null) {
                                 if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
+                                    while (true) {
+                                        if ($currentIteration == $count) {
+                                            break;
+                                        }
+                                        if ($importedRoot->getElementsByTagName($nextSibling)->item(0) != null) {
+                                            # code...
+                                            $importedRoot->getElementsByTagName($key2)->item(0)->insertBefore(
+                                                $doc->createElement($key3),
+                                                $importedRoot->getElementsByTagName($nextSibling)->item(0)
+                                            );
+                                        }
+                                        $nextSibling = $arrayKeys[++$currentIteration];
+                                    }
                                     $importedRoot->getElementsByTagName($key2)->item(0)->appendChild(
                                         $doc->createElement($key3)
                                     );
@@ -127,9 +144,24 @@
                                     } else {
                                         $nextSibling = $arrayKeys[${'iteration-' . $number}];
                                     }
-                                    
+
+                                    $currentIteration = ${'iteration-' . $number};
+
                                     if ($importedRoot->getElementsByTagName($key4)->item(0) == null) {
                                         if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
+                                            while (true) {
+                                                if ($currentIteration == $count) {
+                                                    break;
+                                                }
+                                                if ($importedRoot->getElementsByTagName($nextSibling)->item(0) != null) {
+                                                    # code...
+                                                    $importedRoot->getElementsByTagName($key3)->item(0)->insertBefore(
+                                                        $doc->createElement($key4),
+                                                        $importedRoot->getElementsByTagName($nextSibling)->item(0)
+                                                    );
+                                                }
+                                                $nextSibling = $arrayKeys[++$currentIteration];
+                                            }
                                             $importedRoot->getElementsByTagName($key3)->item(0)->appendChild(
                                                 $doc->createElement($key4)
                                             );
@@ -151,9 +183,24 @@
                                             } else {
                                                 $nextSibling = $arrayKeys[${'iteration-' . $number}];
                                             }
-                                            
+
+                                            $currentIteration = ${'iteration-' . $number};
+
                                             if ($importedRoot->getElementsByTagName($key5)->item(0) == null) {
                                                 if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
+                                                    while (true) {
+                                                        if ($currentIteration == $count) {
+                                                            break;
+                                                        }
+                                                        if ($importedRoot->getElementsByTagName($nextSibling)->item(0) != null) {
+                                                            # code...
+                                                            $importedRoot->getElementsByTagName($key4)->item(0)->insertBefore(
+                                                                $doc->createElement($key5),
+                                                                $importedRoot->getElementsByTagName($nextSibling)->item(0)
+                                                            );
+                                                        }
+                                                        $nextSibling = $arrayKeys[++$currentIteration];
+                                                    }
                                                     $importedRoot->getElementsByTagName($key4)->item(0)->appendChild(
                                                         $doc->createElement($key5)
                                                     );
@@ -175,9 +222,24 @@
                                                     } else {
                                                         $nextSibling = $arrayKeys[${'iteration-' . $number}];
                                                     }
-                                                    
+
+                                                    $currentIteration = ${'iteration-' . $number};
+
                                                     if ($importedRoot->getElementsByTagName($key6)->item(0) == null) {
                                                         if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
+                                                            while (true) {
+                                                                if ($currentIteration == $count) {
+                                                                    break;
+                                                                }
+                                                                if ($importedRoot->getElementsByTagName($nextSibling)->item(0) != null) {
+                                                                    # code...
+                                                                    $importedRoot->getElementsByTagName($key5)->item(0)->insertBefore(
+                                                                        $doc->createElement($key6),
+                                                                        $importedRoot->getElementsByTagName($nextSibling)->item(0)
+                                                                    );
+                                                                }
+                                                                $nextSibling = $arrayKeys[++$currentIteration];
+                                                            }
                                                             $importedRoot->getElementsByTagName($key5)->item(0)->appendChild(
                                                                 $doc->createElement($key6)
                                                             );
@@ -199,9 +261,24 @@
                                                             } else {
                                                                 $nextSibling = $arrayKeys[${'iteration-' . $number}];
                                                             }
-                                                            
+
+                                                            $currentIteration = ${'iteration-' . $number};
+
                                                             if ($importedRoot->getElementsByTagName($key7)->item(0) == null) {
                                                                 if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
+                                                                    while (true) {
+                                                                        if ($currentIteration == $count) {
+                                                                            break;
+                                                                        }
+                                                                        if ($importedRoot->getElementsByTagName($nextSibling)->item(0) != null) {
+                                                                            # code...
+                                                                            $importedRoot->getElementsByTagName($key6)->item(0)->insertBefore(
+                                                                                $doc->createElement($key7),
+                                                                                $importedRoot->getElementsByTagName($nextSibling)->item(0)
+                                                                            );
+                                                                        }
+                                                                        $nextSibling = $arrayKeys[++$currentIteration];
+                                                                    }
                                                                     $importedRoot->getElementsByTagName($key6)->item(0)->appendChild(
                                                                         $doc->createElement($key7)
                                                                     );

@@ -33,11 +33,15 @@
                         ],
                         'aff' => null,
                         'pub-date' => [
+                            'day' => null,
+                            'month' => null,
                             'year' => null
                         ],
                         'elocation-id' => null,
                         'history' => [
                             'date' => [
+                                'day' => null,
+                                'month' => null,
                                 'year' => null
                             ]
                         ],
@@ -61,6 +65,7 @@
         $number = 0;
         ${'iteration-' . $number} = 0;
         $importedRoot = $doc->documentElement;
+        // parent
         foreach ($requiredElements as $key1 => $value1) {
             // 1st child
             if (gettype($value1) == 'array') {
@@ -76,14 +81,14 @@
                     }
                     
                     if ($importedRoot->getElementsByTagName($key2)->item(0) == null) {
-                        if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
-                            $importedRoot->getElementsByTagName($key1)->item(0)->appendChild(
+                        if ($importedRoot == null) {
+                            $importedRoot->appendChild(
                                 $doc->createElement($key2)
                             );
                         } else {
-                            $importedRoot->getElementsByTagName($key1)->item(0)->insertBefore(
+                            $importedRoot->insertBefore(
                                 $doc->createElement($key2),
-                                $importedRoot->getElementsByTagName($nextSibling)->item(0)
+                                $importedRoot
                             );
                         }
                     }
@@ -98,7 +103,7 @@
                             } else {
                                 $nextSibling = $arrayKeys[${'iteration-' . $number}];
                             }
-                    
+                            
                             if ($importedRoot->getElementsByTagName($key3)->item(0) == null) {
                                 if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
                                     $importedRoot->getElementsByTagName($key2)->item(0)->appendChild(
@@ -122,12 +127,7 @@
                                     } else {
                                         $nextSibling = $arrayKeys[${'iteration-' . $number}];
                                     }
-
-                                    // note
-                                    // if ($key3 == 'ack') {
-                                    //     dd($importedRoot->getElementsByTagName($key4)->item(0));
-                                    // }
-
+                                    
                                     if ($importedRoot->getElementsByTagName($key4)->item(0) == null) {
                                         if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
                                             $importedRoot->getElementsByTagName($key3)->item(0)->appendChild(
@@ -151,7 +151,7 @@
                                             } else {
                                                 $nextSibling = $arrayKeys[${'iteration-' . $number}];
                                             }
-
+                                            
                                             if ($importedRoot->getElementsByTagName($key5)->item(0) == null) {
                                                 if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
                                                     $importedRoot->getElementsByTagName($key4)->item(0)->appendChild(
@@ -175,7 +175,7 @@
                                                     } else {
                                                         $nextSibling = $arrayKeys[${'iteration-' . $number}];
                                                     }
-
+                                                    
                                                     if ($importedRoot->getElementsByTagName($key6)->item(0) == null) {
                                                         if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
                                                             $importedRoot->getElementsByTagName($key5)->item(0)->appendChild(
@@ -199,7 +199,7 @@
                                                             } else {
                                                                 $nextSibling = $arrayKeys[${'iteration-' . $number}];
                                                             }
-
+                                                            
                                                             if ($importedRoot->getElementsByTagName($key7)->item(0) == null) {
                                                                 if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
                                                                     $importedRoot->getElementsByTagName($key6)->item(0)->appendChild(
@@ -211,37 +211,6 @@
                                                                         $importedRoot->getElementsByTagName($nextSibling)->item(0)
                                                                     );
                                                                 }
-                                                            }
-                                                            if (gettype($value7) == 'array') {
-                                                                ${'iteration-' . ++$number} = 0;
-                                                                foreach ($value7 as $key8 => $value8) {
-                                                                    // 8th child
-                                                                    $arrayKeys = array_keys($value7);
-                                                                    $count = count($arrayKeys) - 1;
-                                                                    if ($count != ${'iteration-' . $number}) {
-                                                                        $nextSibling = $arrayKeys[++${'iteration-' . $number}];
-                                                                    } else {
-                                                                        $nextSibling = $arrayKeys[${'iteration-' . $number}];
-                                                                    }
-    
-                                                                    if ($importedRoot->getElementsByTagName($key8)->item(0) == null) {
-                                                                        if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
-                                                                            $importedRoot->getElementsByTagName($key7)->item(0)->appendChild(
-                                                                                $doc->createElement($key8)
-                                                                            );
-                                                                        } else {
-                                                                            $importedRoot->getElementsByTagName($key7)->item(0)->insertBefore(
-                                                                                $doc->createElement($key8),
-                                                                                $importedRoot->getElementsByTagName($nextSibling)->item(0)
-                                                                            );
-                                                                        }
-                                                                    }
-                                                                    if (gettype($value8) == 'array') {
-                                                                        ${'iteration-' . ++$number} = 0;
-                                                                    }
-                                                                }
-                                                                unset(${'iteration-' . $number});
-                                                                ${'iteration-' . --$number};
                                                             }
                                                         }
                                                         unset(${'iteration-' . $number});

@@ -35,7 +35,7 @@
     $importedRoot->getElementsByTagName('article-meta')->item(0)->insertBefore(
         $articleCategories,
         $importedRoot->getElementsByTagName('article-meta')->item(0)->firstChild);
-    $importedRoot->getElementsByTagName('article-meta')->item(0)->insertBefore(
+    $importedRoot->getElementsByTagName('history')->item(0)->parentNode->insertBefore(
         $eLocationId,
         $importedRoot->getElementsByTagName('history')->item(0));
     $importedRoot->getElementsByTagName('article-meta')->item(0)->insertBefore(

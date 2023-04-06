@@ -108,11 +108,13 @@
 
                             $currentIteration = ${'iteration-' . $number};
                     
-                            if ($importedRoot->getElementsByTagName($key3)->item(0) == null) {
-                                
+                            if ($importedRoot->getElementsByTagName($key2)->item(0)
+                                ->getElementsByTagName($key3)->item(0) == null) {
+                                    
                                 $createElement = $doc->createElement($key3);
-                                
-                                if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
+                                    
+                                if ($importedRoot->getElementsByTagName($key2)->item(0)
+                                    ->getElementsByTagName($nextSibling)->item(0) == null) {
                                     while (true) {
                                         if ($currentIteration == $count) {
                                             $importedRoot->getElementsByTagName($key2)->item(0)->appendChild(
@@ -120,7 +122,8 @@
                                             );
                                             break;
                                         }
-                                        if ($importedRoot->getElementsByTagName($nextSibling)->item(0) != null) {
+                                        if ($importedRoot->getElementsByTagName($key2)->item(0)
+                                            ->getElementsByTagName($nextSibling)->item(0) != null) {
                                             # code...
                                             $importedRoot->getElementsByTagName($key2)->item(0)->insertBefore(
                                                 $createElement,
@@ -153,11 +156,13 @@
 
                                     $currentIteration = ${'iteration-' . $number};
 
-                                    if ($importedRoot->getElementsByTagName($key4)->item(0) == null) {
-                                        
+                                    if ($importedRoot->getElementsByTagName($key3)->item(0)
+                                        ->getElementsByTagName($key4)->item(0) == null) {
+                                            
                                         $createElement = $doc->createElement($key4);
-                                        
-                                        if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
+                                            
+                                        if ($importedRoot->getElementsByTagName($key3)->item(0)
+                                            ->getElementsByTagName($nextSibling)->item(0) == null) {
                                             while (true) {
                                                 if ($currentIteration == $count) {
                                                     $importedRoot->getElementsByTagName($key3)->item(0)->appendChild(
@@ -165,7 +170,8 @@
                                                     );
                                                     break;
                                                 }
-                                                if ($importedRoot->getElementsByTagName($nextSibling)->item(0) != null) {
+                                                if ($importedRoot->getElementsByTagName($key3)->item(0)
+                                                    ->getElementsByTagName($nextSibling)->item(0) != null) {
                                                     # code...
                                                     $importedRoot->getElementsByTagName($key3)->item(0)->insertBefore(
                                                         $createElement,
@@ -198,11 +204,13 @@
 
                                             $currentIteration = ${'iteration-' . $number};
 
-                                            if ($importedRoot->getElementsByTagName($key5)->item(0) == null) {
-                                                
+                                            if ($importedRoot->getElementsByTagName($key4)->item(0)
+                                                ->getElementsByTagName($key5)->item(0) == null) {
+                                                    
                                                 $createElement = $doc->createElement($key5);
-                                                
-                                                if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
+                                                    
+                                                if ($importedRoot->getElementsByTagName($key4)->item(0)
+                                                    ->getElementsByTagName($nextSibling)->item(0) == null) {
                                                     while (true) {
                                                         if ($currentIteration == $count) {
                                                             $importedRoot->getElementsByTagName($key4)->item(0)->appendChild(
@@ -210,7 +218,8 @@
                                                             );
                                                             break;
                                                         }
-                                                        if ($importedRoot->getElementsByTagName($nextSibling)->item(0) != null) {
+                                                        if ($importedRoot->getElementsByTagName($key4)->item(0)
+                                                            ->getElementsByTagName($nextSibling)->item(0) != null) {
                                                             # code...
                                                             $importedRoot->getElementsByTagName($key4)->item(0)->insertBefore(
                                                                 $createElement,
@@ -243,11 +252,13 @@
 
                                                     $currentIteration = ${'iteration-' . $number};
 
-                                                    if ($importedRoot->getElementsByTagName($key6)->item(0) == null) {
-                                                        
+                                                    if ($importedRoot->getElementsByTagName($key5)->item(0)
+                                                        ->getElementsByTagName($key6)->item(0) == null) {
+                                                            
                                                         $createElement = $doc->createElement($key6);
-                                                        
-                                                        if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
+                                                            
+                                                        if ($importedRoot->getElementsByTagName($key5)->item(0)
+                                                            ->getElementsByTagName($nextSibling)->item(0) == null) {
                                                             while (true) {
                                                                 if ($currentIteration == $count) {
                                                                     $importedRoot->getElementsByTagName($key5)->item(0)->appendChild(
@@ -255,7 +266,8 @@
                                                                     );
                                                                     break;
                                                                 }
-                                                                if ($importedRoot->getElementsByTagName($nextSibling)->item(0) != null) {
+                                                                if ($importedRoot->getElementsByTagName($key5)->item(0)
+                                                                    ->getElementsByTagName($nextSibling)->item(0) != null) {
                                                                     # code...
                                                                     $importedRoot->getElementsByTagName($key5)->item(0)->insertBefore(
                                                                         $createElement,
@@ -288,11 +300,13 @@
 
                                                             $currentIteration = ${'iteration-' . $number};
 
-                                                            if ($importedRoot->getElementsByTagName($key7)->item(0) == null) {
-                                                                
+                                                            if ($importedRoot->getElementsByTagName($key6)->item(0)
+                                                                ->getElementsByTagName($key7)->item(0) == null) {
+                                                                    
                                                                 $createElement = $doc->createElement($key7);
-                                                                
-                                                                if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
+                                                                    
+                                                                if ($importedRoot->getElementsByTagName($key6)->item(0)
+                                                                    ->getElementsByTagName($nextSibling)->item(0) == null) {
                                                                     while (true) {
                                                                         if ($currentIteration == $count) {
                                                                             $importedRoot->getElementsByTagName($key6)->item(0)->appendChild(
@@ -300,7 +314,8 @@
                                                                             );
                                                                             break;
                                                                         }
-                                                                        if ($importedRoot->getElementsByTagName($nextSibling)->item(0) != null) {
+                                                                        if ($importedRoot->getElementsByTagName($key6)->item(0)
+                                                                            ->getElementsByTagName($nextSibling)->item(0) != null) {
                                                                             # code...
                                                                             $importedRoot->getElementsByTagName($key6)->item(0)->insertBefore(
                                                                                 $createElement,

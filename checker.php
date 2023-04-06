@@ -109,29 +109,35 @@
                             $currentIteration = ${'iteration-' . $number};
                     
                             if ($importedRoot->getElementsByTagName($key3)->item(0) == null) {
+                                
+                                $createElement = $doc->createElement($key3);
+                                
                                 if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
                                     while (true) {
                                         if ($currentIteration == $count) {
+                                            $importedRoot->getElementsByTagName($key2)->item(0)->appendChild(
+                                                $createElement
+                                            );
                                             break;
                                         }
                                         if ($importedRoot->getElementsByTagName($nextSibling)->item(0) != null) {
                                             # code...
                                             $importedRoot->getElementsByTagName($key2)->item(0)->insertBefore(
-                                                $doc->createElement($key3),
+                                                $createElement,
                                                 $importedRoot->getElementsByTagName($nextSibling)->item(0)
                                             );
+                                            break;
                                         }
                                         $nextSibling = $arrayKeys[++$currentIteration];
                                     }
-                                    $importedRoot->getElementsByTagName($key2)->item(0)->appendChild(
-                                        $doc->createElement($key3)
-                                    );
                                 } else {
                                     $importedRoot->getElementsByTagName($key2)->item(0)->insertBefore(
-                                        $doc->createElement($key3),
+                                        $createElement,
                                         $importedRoot->getElementsByTagName($nextSibling)->item(0)
                                     );
                                 }
+
+                                unset($createElement);
                             }
                             if (gettype($value3) == 'array') {
                                 ${'iteration-' . ++$number} = 0;
@@ -148,29 +154,35 @@
                                     $currentIteration = ${'iteration-' . $number};
 
                                     if ($importedRoot->getElementsByTagName($key4)->item(0) == null) {
+                                        
+                                        $createElement = $doc->createElement($key4);
+                                        
                                         if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
                                             while (true) {
                                                 if ($currentIteration == $count) {
+                                                    $importedRoot->getElementsByTagName($key3)->item(0)->appendChild(
+                                                        $createElement
+                                                    );
                                                     break;
                                                 }
                                                 if ($importedRoot->getElementsByTagName($nextSibling)->item(0) != null) {
                                                     # code...
                                                     $importedRoot->getElementsByTagName($key3)->item(0)->insertBefore(
-                                                        $doc->createElement($key4),
+                                                        $createElement,
                                                         $importedRoot->getElementsByTagName($nextSibling)->item(0)
                                                     );
+                                                    break;
                                                 }
                                                 $nextSibling = $arrayKeys[++$currentIteration];
                                             }
-                                            $importedRoot->getElementsByTagName($key3)->item(0)->appendChild(
-                                                $doc->createElement($key4)
-                                            );
                                         } else {
                                             $importedRoot->getElementsByTagName($key3)->item(0)->insertBefore(
-                                                $doc->createElement($key4),
+                                                $createElement,
                                                 $importedRoot->getElementsByTagName($nextSibling)->item(0)
                                             );
                                         }
+
+                                        unset($createElement);
                                     }
                                     if (gettype($value4) == 'array') {
                                         ${'iteration-' . ++$number} = 0;
@@ -187,29 +199,35 @@
                                             $currentIteration = ${'iteration-' . $number};
 
                                             if ($importedRoot->getElementsByTagName($key5)->item(0) == null) {
+                                                
+                                                $createElement = $doc->createElement($key5);
+                                                
                                                 if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
                                                     while (true) {
                                                         if ($currentIteration == $count) {
+                                                            $importedRoot->getElementsByTagName($key4)->item(0)->appendChild(
+                                                                $createElement
+                                                            );
                                                             break;
                                                         }
                                                         if ($importedRoot->getElementsByTagName($nextSibling)->item(0) != null) {
                                                             # code...
                                                             $importedRoot->getElementsByTagName($key4)->item(0)->insertBefore(
-                                                                $doc->createElement($key5),
+                                                                $createElement,
                                                                 $importedRoot->getElementsByTagName($nextSibling)->item(0)
                                                             );
+                                                            break;
                                                         }
                                                         $nextSibling = $arrayKeys[++$currentIteration];
                                                     }
-                                                    $importedRoot->getElementsByTagName($key4)->item(0)->appendChild(
-                                                        $doc->createElement($key5)
-                                                    );
                                                 } else {
                                                     $importedRoot->getElementsByTagName($key4)->item(0)->insertBefore(
-                                                        $doc->createElement($key5),
+                                                        $createElement,
                                                         $importedRoot->getElementsByTagName($nextSibling)->item(0)
                                                     );
                                                 }
+
+                                                unset($createElement);
                                             }
                                             if (gettype($value5) == 'array') {
                                                 ${'iteration-' . ++$number} = 0;
@@ -226,29 +244,35 @@
                                                     $currentIteration = ${'iteration-' . $number};
 
                                                     if ($importedRoot->getElementsByTagName($key6)->item(0) == null) {
+                                                        
+                                                        $createElement = $doc->createElement($key6);
+                                                        
                                                         if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
                                                             while (true) {
                                                                 if ($currentIteration == $count) {
+                                                                    $importedRoot->getElementsByTagName($key5)->item(0)->appendChild(
+                                                                        $createElement
+                                                                    );
                                                                     break;
                                                                 }
                                                                 if ($importedRoot->getElementsByTagName($nextSibling)->item(0) != null) {
                                                                     # code...
                                                                     $importedRoot->getElementsByTagName($key5)->item(0)->insertBefore(
-                                                                        $doc->createElement($key6),
+                                                                        $createElement,
                                                                         $importedRoot->getElementsByTagName($nextSibling)->item(0)
                                                                     );
+                                                                    break;
                                                                 }
                                                                 $nextSibling = $arrayKeys[++$currentIteration];
                                                             }
-                                                            $importedRoot->getElementsByTagName($key5)->item(0)->appendChild(
-                                                                $doc->createElement($key6)
-                                                            );
                                                         } else {
                                                             $importedRoot->getElementsByTagName($key5)->item(0)->insertBefore(
-                                                                $doc->createElement($key6),
+                                                                $createElement,
                                                                 $importedRoot->getElementsByTagName($nextSibling)->item(0)
                                                             );
                                                         }
+
+                                                        unset($createElement);
                                                     }
                                                     if (gettype($value6) == 'array') {
                                                         ${'iteration-' . ++$number} = 0;
@@ -265,29 +289,35 @@
                                                             $currentIteration = ${'iteration-' . $number};
 
                                                             if ($importedRoot->getElementsByTagName($key7)->item(0) == null) {
+                                                                
+                                                                $createElement = $doc->createElement($key7);
+                                                                
                                                                 if ($importedRoot->getElementsByTagName($nextSibling)->item(0) == null) {
                                                                     while (true) {
                                                                         if ($currentIteration == $count) {
+                                                                            $importedRoot->getElementsByTagName($key6)->item(0)->appendChild(
+                                                                                $createElement
+                                                                            );
                                                                             break;
                                                                         }
                                                                         if ($importedRoot->getElementsByTagName($nextSibling)->item(0) != null) {
                                                                             # code...
                                                                             $importedRoot->getElementsByTagName($key6)->item(0)->insertBefore(
-                                                                                $doc->createElement($key7),
+                                                                                $createElement,
                                                                                 $importedRoot->getElementsByTagName($nextSibling)->item(0)
                                                                             );
+                                                                            break;
                                                                         }
                                                                         $nextSibling = $arrayKeys[++$currentIteration];
                                                                     }
-                                                                    $importedRoot->getElementsByTagName($key6)->item(0)->appendChild(
-                                                                        $doc->createElement($key7)
-                                                                    );
                                                                 } else {
                                                                     $importedRoot->getElementsByTagName($key6)->item(0)->insertBefore(
-                                                                        $doc->createElement($key7),
+                                                                        $createElement,
                                                                         $importedRoot->getElementsByTagName($nextSibling)->item(0)
                                                                     );
                                                                 }
+
+                                                                unset($createElement);
                                                             }
                                                         }
                                                         unset(${'iteration-' . $number});

@@ -3,92 +3,57 @@
 <article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="addendum">
   <front>
     <journal-meta>
-      <journal-id journal-id-type="pmc">Journal ID</journal-id>
+      <journal-id journal-id-type="pmc"/>
       <journal-title-group>
-        <journal-title>Judul journal</journal-title>
+        <journal-title/>
       </journal-title-group>
-      <issn pub-type="epub">0000-0000</issn>
+      <issn pub-type="epub"/>
       <publisher>
-        <publisher-name>Nama publisher</publisher-name>
+        <publisher-name/>
       </publisher>
     </journal-meta>
     <article-meta>
       <article-categories>
         <subj-group subj-group-type="heading">
-          <subject>Subject</subject>
+          <subject/>
         </subj-group>
       </article-categories>
       <title-group>
-        <article-title>Judul artikel</article-title>
+        <article-title/>
       </title-group>
       <contrib-group content-type="author">
         <contrib id="person-a99054e84dbcaffc4fd50252deb724fe" contrib-type="author" equal-contrib="no" corresp="no" deceased="no">
           <name>
-            <surname>Aljarboo</surname>
-            <given-names>Ahmad</given-names>
+            <surname/>
+            <given-names/>
           </name>
-          <email>ahmadaljarboo@gmail.com</email>
+          <email/>
           <xref ref-type="aff" rid="aff-1"/>
-        </contrib>
-        <contrib id="person-d592f902aa31544025d083e5dd1058e2" contrib-type="author" equal-contrib="no" corresp="no" deceased="no">
-          <name>
-            <surname>Alghamdi</surname>
-            <given-names>Faisal</given-names>
-          </name>
-          <email>f.alghamdi@journalofgastricsurgery.com</email>
-          <xref ref-type="aff" rid="aff-2"/>
-        </contrib>
-        <contrib id="person-82362c5b4dca9a4162baf9db366c6654" contrib-type="author" equal-contrib="no" corresp="no" deceased="no">
-          <name>
-            <surname>Alzahrani</surname>
-            <given-names>Abdullah</given-names>
-          </name>
-          <email>a.alzahrani@journalofgastricsurgery.com</email>
-          <xref ref-type="aff" rid="aff-3"/>
-        </contrib>
-        <contrib id="person-7a32aba3abba3710ceaca718a74bd5ea" contrib-type="author" equal-contrib="no" corresp="no" deceased="no">
-          <name>
-            <surname>Ali</surname>
-            <given-names>Bandar</given-names>
-          </name>
-          <email>b.ali@journalofgastricsurgery.com</email>
-          <xref ref-type="aff" rid="aff-4"/>
         </contrib>
       </contrib-group>
       <aff id="aff-1">
-        <country>Saudi Arabia</country>
-      </aff>
-      <aff id="aff-2">
-        <country>Saudi Arabia</country>
-      </aff>
-      <aff id="aff-3">
-        <country>Saudi Arabia</country>
-      </aff>
-      <aff id="aff-4">
-        <country>Saudi Arabia</country>
+        <country/>
       </aff>
       <pub-date publication-format="electronic" date-type="pub">
-        <year>2023</year>
+        <year/>
       </pub-date>
-      <elocation-id>A00</elocation-id>
+      <elocation-id/>
       <history>
         <date date-type="received" iso-8601-date="2020-09-26">
-          <year>2020</year>
+          <year/>
         </date>
       </history>
       <abstract>
-        <p>(Anything to add here)</p>
+        <p/>
       </abstract>
     </article-meta>
   </front>
-  <body id="body">
-    <p id="_paragraph-7">
-      (dwadwa)
-    </p>
+  <body>
+    <p/>
   </body>
   <back>
     <ack>
-      <p>(Anything to add here)</p>
+      <p/>
     </ack>
   </back>
 </article>

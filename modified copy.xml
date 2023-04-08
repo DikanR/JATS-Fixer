@@ -3,57 +3,73 @@
 <article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="addendum">
   <front>
     <journal-meta>
-      <journal-id journal-id-type="pmc"/>
+      <journal-id>Journal ID</journal-id>
       <journal-title-group>
-        <journal-title/>
+        <journal-title>Judul journal</journal-title>
       </journal-title-group>
-      <issn pub-type="epub"/>
+      <issn>0000-0000</issn>
       <publisher>
-        <publisher-name/>
+        <publisher-name>Nama publisher</publisher-name>
       </publisher>
     </journal-meta>
     <article-meta>
       <article-categories>
-        <subj-group subj-group-type="heading">
-          <subject/>
+        <subj-group>
+          <subject>Subject</subject>
         </subj-group>
       </article-categories>
       <title-group>
-        <article-title/>
+        <article-title>Judul artikel</article-title>
       </title-group>
-      <contrib-group content-type="author">
-        <contrib id="person-a99054e84dbcaffc4fd50252deb724fe" contrib-type="author" equal-contrib="no" corresp="no" deceased="no">
+      <contrib-group>
+        <contrib>
           <name>
-            <surname/>
-            <given-names/>
+            <surname>Aljarboo</surname>
+            <given-names>Ahmad</given-names>
           </name>
-          <email/>
-          <xref ref-type="aff" rid="aff-1"/>
+          <email>ahmadaljarboo@gmail.com</email>
+          <xref/>
         </contrib>
       </contrib-group>
-      <aff id="aff-1">
-        <country/>
+      <aff>
+        <country>Saudi Arabia</country>
       </aff>
-      <pub-date publication-format="electronic" date-type="pub">
-        <year/>
+      <pub-date>
+        <year>2023</year>
       </pub-date>
-      <elocation-id/>
+      <elocation-id>A00</elocation-id>
       <history>
-        <date date-type="received" iso-8601-date="2020-09-26">
-          <year/>
+        <date>
+          <day>26</day>
+          <month>09</month>
+          <year>2020</year>
         </date>
       </history>
       <abstract>
-        <p/>
+        <p>(Anything to add here)</p>
       </abstract>
     </article-meta>
   </front>
   <body>
-    <p/>
+    <p id="_paragraph-7">
+      <italic id="_italic-1">Ahmad A. Aljarboo</italic>
+      <sup id="_superscript-1">
+        <italic id="_italic-2">1*</italic>
+        <italic id="_italic-17"/>
+      </sup>
+      <sup id="_superscript-7">
+        <italic id="_italic-20"/>
+      </sup>
+    </p>
+    <sec id="heading-4f0090e8a03d81e33be621dd1c1b1d53">
+      <title>Background </title>
+      <p id="_paragraph-28"><bold id="bold-1">Cancer</bold> is a group of diseases involving abnormal <ext-link id="external-link-1" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cell_growth">cell growth</ext-link> with the potential to invade or spread to other parts of the body.<ext-link id="external-link-2" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WHO2018-2"><sup id="superscript-1">[2]</sup></ext-link><ext-link id="external-link-3" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-NCI2014-8"><sup id="superscript-2">[8]</sup></ext-link> These contrast with <ext-link id="external-link-4" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Benign_tumor">benign tumors</ext-link>, which do not spread.<ext-link id="external-link-5" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-NCI2014-8"><sup id="superscript-3">[8]</sup></ext-link> Possible <ext-link id="external-link-6" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer_signs_and_symptoms">signs and symptoms</ext-link> include a lump, abnormal bleeding, prolonged cough, unexplained <ext-link id="external-link-7" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Weight_loss">weight loss</ext-link>, and a change in <ext-link id="external-link-8" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Defecation">bowel movements</ext-link>.<ext-link id="external-link-9" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-NHS2012-1"><sup id="superscript-4">[1]</sup></ext-link> While these symptoms may indicate cancer, they can also have other causes.<ext-link id="external-link-10" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-NHS2012-1"><sup id="superscript-5">[1]</sup></ext-link> Over 100 types of cancers affect humans.<ext-link id="external-link-11" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-NCI2014-8"><sup id="superscript-6">[8]</sup></ext-link></p>
+      <p id="paragraph-2"><ext-link id="external-link-12" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Tobacco_use">Tobacco use</ext-link> is the cause of about 22% of cancer deaths.<ext-link id="external-link-13" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WHO2018-2"><sup id="superscript-7">[2]</sup></ext-link> Another 10% are due to <ext-link id="external-link-14" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Obesity">obesity</ext-link>, poor <ext-link id="external-link-15" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Diet_(nutrition)">diet</ext-link>, <ext-link id="external-link-16" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Sedentary_lifestyle">lack of physical activity</ext-link> or <ext-link id="external-link-17" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Alcohol_abuse">excessive drinking</ext-link> of <ext-link id="external-link-18" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Alcohol_(drug)">alcohol</ext-link>.<ext-link id="external-link-19" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WHO2018-2"><sup id="superscript-8">[2]</sup></ext-link><sup id="superscript-9"><ext-link id="external-link-20" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-9">[9]</ext-link></sup><sup id="superscript-10"><ext-link id="external-link-21" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-10">[10]</ext-link></sup> Other factors include certain infections, exposure to <ext-link id="external-link-22" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Ionizing_radiation">ionizing radiation</ext-link>, and environmental pollutants.<ext-link id="external-link-23" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-Enviro2008-3"><sup id="superscript-11">[3]</sup></ext-link> In the <ext-link id="external-link-24" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Developing_country">developing world</ext-link>, 15% of cancers are due to infections such as <ext-link id="external-link-25" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Helicobacter_pylori"><italic id="italic-1">Helicobacter pylori</italic></ext-link>, <ext-link id="external-link-26" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Hepatitis_B">hepatitis B</ext-link>, <ext-link id="external-link-27" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Hepatitis_C">hepatitis C</ext-link>, <ext-link id="external-link-28" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Human_papillomavirus_infection">human papillomavirus infection</ext-link>, <ext-link id="external-link-29" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Epstein%E2%80%93Barr_virus">Epstein–Barr virus</ext-link> and <ext-link id="external-link-30" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/HIV">human immunodeficiency virus</ext-link> (HIV).<ext-link id="external-link-31" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WHO2018-2"><sup id="superscript-12">[2]</sup></ext-link> These factors act, at least partly, by changing the <ext-link id="external-link-32" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Gene">genes</ext-link> of a cell.<ext-link id="external-link-33" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WCR2014Bio-11"><sup id="superscript-13">[11]</sup></ext-link> Typically, many genetic changes are required before cancer develops.<ext-link id="external-link-34" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WCR2014Bio-11"><sup id="superscript-14">[11]</sup></ext-link> Approximately 5–10% of cancers are due to inherited genetic defects.<ext-link id="external-link-35" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-ACS-heredity-12"><sup id="superscript-15">[12]</sup></ext-link> Cancer can be detected by certain signs and symptoms or <ext-link id="external-link-36" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer_screening">screening tests</ext-link>.<ext-link id="external-link-37" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-WHO2018-2"><sup id="superscript-16">[2]</sup></ext-link> It is then typically further investigated by <ext-link id="external-link-38" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Medical_imaging">medical imaging</ext-link> and confirmed by <ext-link id="external-link-39" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Biopsy">biopsy</ext-link>.<ext-link id="external-link-40" ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Cancer#cite_note-13"><sup id="superscript-17">[13]</sup></ext-link></p>
+    </sec>
   </body>
   <back>
     <ack>
-      <p/>
+      <p>(Anything to add here)</p>
     </ack>
   </back>
 </article>
